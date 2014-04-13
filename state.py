@@ -11,24 +11,27 @@ class State :
         self.add_corpus("Raw")
         self.dictionaries = dict()
 
-        self.b_rules = dict()
-        self.f_rules = dict()
+        self.rules = dict()
 
         #Find inconsistent rules
-        self.candidate_rule_b = dict()
-        self.candidate_rule_f = dict()
+        self.candidate_rules = dict()
 
         self.init_dict("PER", "PER.txt")
         self.init_dict("ORG", "ORG.txt")
         self.init_dict("LOC", "LOC.txt")
+
+    def get_type_and_score(self,rule) :
+        if rule not in self.rules :
+            return ("None", -1)
+        maj_map = self.rules[rule]
+        return (maj_map.get_type(), maj_map.get_majority())
 
 
     def init_dict(self, label, filepath) :
         dictionary = []
         self.ne_types.add(label)
         self.dictionaries[label] = dictionary
-        self.b_rules[label] = []
-        self.f_rules[label] = []
+
         f = open(filepath, "r")
         for line in f :
             ne = NamedEntity(line.strip(), 1.0)
@@ -45,41 +48,32 @@ class State :
     def get_ne_types(self) :
         return list(self.ne_types)
 
-    def log_rules(self, ne_type, b_rules, f_rules) :
-        for rule in b_rules :
-            prefix = rule.prefix
-            if prefix not in self.candidate_rule_b.keys() :
-                self.candidate_rule_b[prefix] = (MajorityDict(),rule)
-            self.candidate_rule_b[prefix][0].insert(ne_type)
+    def log_rules(self, ne_type, rules) :
+        for rule in rules :
+            if rule not in self.candidate_rules.keys() :
+                self.candidate_rules[rule] = MajorityDict()
+            self.candidate_rules[rule].insert(ne_type)
 
-        for rule in f_rules :
-            suffix = rule.suffix
-            if suffix not in self.candidate_rule_f.keys() :
-                self.candidate_rule_f[suffix] = (MajorityDict(),rule)
-            self.candidate_rule_f[suffix][0].insert(ne_type)
-    
-    def promote_rules(self, threshold) :
-        def promote(rule_dict, threshold) :
-            promote_set = []
-            for candidate in rule_dict.keys() :
-                rule = rule_dict[candidate][1]
-                rule.score = rule_dict[candidate][0].get_majority()
-                if rule.score > threshold :
-                    promote_set.append(rule)
-            return promote_set
+    def promote_rules(self, threshold, max_to_promote) :
+        def sort_by_score(rules, score_dict) :
+            return sorted(rules, \
+                    key=lambda x:score_dict[x].get_majority(), reverse=True)
 
-        rule_dict = self.candidate_rule_b
-        b_rules = promote(rule_dict, threshold)
-        for rule in b_rules :
-            self.b_rules[rule.label].append(rule)
+        def get_score(rule, score_dict) :
+            return score_dict[rule].get_majority()
 
-        rule_dict = self.candidate_rule_f
-        f_rules = promote(rule_dict, threshold)
-        for rule in f_rules :
-            self.f_rules[rule.label].append(rule)
+        def promote(rule_list) :
+            for rule in rule_list :
+                if rule in self.rules : 
+                    self.rules[rule].merge(self.candidate_rules[rule])
+                else :
+                    self.rules[rule] = self.candidate_rules[rule]
+            return rule_list
 
-
-        return b_rules, f_rules
+        rule_dict = self.candidate_rules
+        rules = sort_by_score(rule_dict.keys(), rule_dict)
+        rules = [r for r in rules if get_score(r, rule_dict) > threshold]
+        return promote(rules[:max_to_promote])
 
     def match_b_rules(self, ne_type) :
         rule_list = self.b_rules[ne_type]

@@ -8,12 +8,11 @@ print NER.state.dictionaries
 for ne_type in NER.get_ne_types() :
     #Find a rule, note the type
     NER.find_rules(ne_type)
-    b_rules, f_rules = NER.promote_rules(0.7)
-    for rule in b_rules :
-        rule.print_rule()
+    #Add parameter
+promote_set = NER.promote_rules(0.7, 99)
 
-#for ne_type in NER.get_ne_types() :
+for ne_type in NER.get_ne_types() :
     #Use rules to find NE
-#    NER.find_ne(ne_type)
+    NER.find_ne(ne_type)
     #b_rules, f_rules = NER.promote_rules(0.7)
 

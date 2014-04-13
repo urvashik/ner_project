@@ -33,19 +33,25 @@ class MajorityDict :
         self.max = (-1, None)
         self.total = 0.0
 
-    def insert(self, key) :
+    def insert(self, key, value=1) :
         if key not in self.dictionary.keys() :
-            self.dictionary[key] = 1
+            self.dictionary[key] = value
             val = 1
         else :
-            self.dictionary[key] += 1
+            self.dictionary[key] += value
             val = self.dictionary[key]
         if val > self.max[0] :
             self.max = (val, key)
         self.total += 1.0
 
+    def merge(self, other) :
+        for key in other.dictionary.keys() :
+            self.insert(key, other[key])
+
     def get_majority(self) :
-        return (self.max[0]/self.total, self.max[1])
+        return self.max[0]/self.total
+    def get_type(self) :
+        return self.max[1]
 
 def subword_filter(text, index, word) :
     print word

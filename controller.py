@@ -9,17 +9,15 @@ class Controller :
 
     def find_rules(self, ne_type) :
         dictionary = self.state.dictionaries[ne_type]
-        b_rules, f_rules = [], []
+        rules = []
         for doc in self.state.corpus :
-            b_rules_i, f_rules_i = doc.find_rules(dictionary, ne_type)
-            if len(b_rules_i) > 0 :
-                b_rules.extend(b_rules_i)
-            if len(f_rules_i) > 0 :
-                f_rules.extend(f_rules_i)
-        self.state.log_rules(ne_type, b_rules, f_rules)
+            rules_i = doc.find_rules(dictionary)
+            if len(rules_i) > 0 :
+                rules.extend(rules_i)
+        self.state.log_rules(ne_type, rules)
     
-    def promote_rules(self, threshold) :
-        return self.state.promote_rules(threshold)
+    def promote_rules(self, threshold, max) :
+        return self.state.promote_rules(threshold, max)
 
     def find_ne(self, ne_type) :
         self.state.match_b_rules(ne_type)
