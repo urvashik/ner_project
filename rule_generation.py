@@ -253,81 +253,86 @@ onlyfiles = [ f for f in listdir(INPUT) if isfile(join(INPUT,f)) ]
 for f in onlyfiles :
     CORPUS.append(Document(INPUT+"/"+f))
 
-for i in range(30):
-    print 'iteration #', i
-    #generate global set of rules
-    for doc in CORPUS :
-        for pair in NE_TYPE :
-            dictionary, candidate_rules, label = pair[0], pair[1], pair[2]
-            #Generate candidate rules
-    
-            candidate_rules.extend(doc.find_rules(dictionary, label))
-    
-    #Rule promotion
-    for pair in NE_TYPE:
-        candidate_rules = pair[1]
-        for rule in candidate_rules:
-            score_rule(rule, rule.label)
 
-    print 'Promoted Rules...'
-    for rule in RULES:
-        print rule.label + '\t' + rule.prefix + '\t' + rule.suffix + '\t'+unicode(RULE_SCORES[rule])
-
-    print '\n\n'
-    
-    #print 'Promoted rules: ', RULES
-    #print '\n\n\n'
-    
-    
-    #generate NE with document-level consistency
-    for doc in CORPUS :
-        for pair in NE_TYPE :
-            dictionary, candidate_rules, label = pair[0], pair[1], pair[2]
-            #print label
-            # TODO : Change this to use known rules, not candidate
-            #for rule in candidate_rules :
-            for rule in RULES:
-                #list of Names
-                results = doc.extract(rule)
-                results = [r for r in results if len(r) > 0]
-                for r in results :
-                    if r not in CNE.keys() :
-                        CNE[r] = dict()
-                        # Key invariant
-                        CNE[r]["PER"] = []
-                        CNE[r]["LOC"] = []
-                        CNE[r]["ORG"] = []
-                    CNE[r][rule.label].append(rule)
-    
-                    add_entity_rule(r, rule)
-    #Make NE labels consistent across document
-    for name in CNE.keys() :
-        #Keep track of majority label type and count
-        curr = (None, 0)
-        for label in LABELS :
-            if len(CNE[name][label]) > curr[1] :
-                curr = (label, len(CNE[name][label]))
-        #Reward and punish rules
-        for rule in CNE[name][curr[0]] :
-            rule.is_correct()
-        for label in LABELS :
-            if label is curr[0] :
-                continue
-            for rule in CNE[name][label] :
-                rule.is_wrong()
+with open('rules.txt', 'w') as fp:
+    with open('NEs.txt', 'w') as fp1:
+        for i in range(30):
+            print 'iteration #', i
+            fp.write('iteration '+str(i)+'\n')
+            fp1.write('iteration '+str(i)+'\n')
+            #generate global set of rules
+            for doc in CORPUS :
+                for pair in NE_TYPE :
+                    dictionary, candidate_rules, label = pair[0], pair[1], pair[2]
+                    #Generate candidate rules
+            
+                    candidate_rules.extend(doc.find_rules(dictionary, label))
+            
+            #Rule promotion
+            for pair in NE_TYPE:
+                candidate_rules = pair[1]
+                for rule in candidate_rules:
+                    score_rule(rule, rule.label)
         
-        CNE_DOC[name] = curr[0]
-    print CNE_DOC
-    
-    #Update NE scores
-    'Updating NE scores...'
-    for ne in CNE:
-        for label in CNE[ne]:
-            score_ne(ne, label)
-            print ne +'\t'+label+'\t'+unicode(NE_SCORES[ne])
-
-    print '\n\n'
-
-    
-    reset()
-    print '\n\n\n\n\n'
+            print 'Promoted Rules...'
+            for rule in RULES:
+                s = (rule.label+'\t'+rule.prefix+'\t'+rule.suffix+'\n')#+unicode(RULE_SCORES[rule])
+                fp.write(s.encode('utf-8'))
+            fp.write('\n\n')
+            
+            #print 'Promoted rules: ', RULES
+            #print '\n\n\n'
+            
+            
+            #generate NE with document-level consistency
+            for doc in CORPUS :
+                for pair in NE_TYPE :
+                    dictionary, candidate_rules, label = pair[0], pair[1], pair[2]
+                    #print label
+                    # TODO : Change this to use known rules, not candidate
+                    #for rule in candidate_rules :
+                    for rule in RULES:
+                        #list of Names
+                        results = doc.extract(rule)
+                        results = [r for r in results if len(r) > 0]
+                        for r in results :
+                            if r not in CNE.keys() :
+                                CNE[r] = dict()
+                                # Key invariant
+                                CNE[r]["PER"] = []
+                                CNE[r]["LOC"] = []
+                                CNE[r]["ORG"] = []
+                            CNE[r][rule.label].append(rule)
+            
+                            add_entity_rule(r, rule)
+            #Make NE labels consistent across document
+            for name in CNE.keys() :
+                #Keep track of majority label type and count
+                curr = (None, 0)
+                for label in LABELS :
+                    if len(CNE[name][label]) > curr[1] :
+                        curr = (label, len(CNE[name][label]))
+                #Reward and punish rules
+                for rule in CNE[name][curr[0]] :
+                    rule.is_correct()
+                for label in LABELS :
+                    if label is curr[0] :
+                        continue
+                    for rule in CNE[name][label] :
+                        rule.is_wrong()
+                
+                CNE_DOC[name] = curr[0]
+            print CNE_DOC
+            
+            #Update NE scores
+            print 'Updating NE scores...'
+            for ne in CNE:
+                for label in CNE[ne]:
+                    score_ne(ne, label)
+                    s = (ne +'\t'+label+'\n')#+unicode(NE_SCORES[ne])
+                    fp1.write(s.encode('utf-8'))
+            fp1.write('\n\n')
+        
+            
+            reset()
+            print '\n\n\n'
