@@ -1,0 +1,33 @@
+SAN FRANCISCO — Silicon Valley lobbied hard in Washington in 2012, and despite some friction with regulators, fared fairly well. In 2013, though, government scrutiny is likely to grow. And with this scrutiny will come even greater efforts by the tech industry to press its case in the nation’s capital and overseas.
+
+In 2012, among other victories, the industry staved off calls for federal consumer privacy legislation and successfully pushed for a revamp of an obscure law that had placed strict privacy protections on Americans’ video rental records. It also helped achieve a stalemate on a proposed global effort to let Web users limit behavioral tracking online, using Do Not Track browser settings.
+
+But this year is likely to put that issue in the spotlight again, and bring intense negotiations between industry and consumer rights groups over whether and how to allow consumers to limit tracking.
+
+Congress is likely to revisit online security legislation — meant to safeguard critical infrastructure from attack — that failed last year. And a looming question for Web giants will be who takes the reins of the Federal Trade Commission, the industry’s main regulator, this year. David C. Vladeck, the director of the commission’s Bureau of Consumer Protection, has resigned, and there have been suggestions that the chairman of the commission itself, Jon Leibowitz, will step down.
+
+The agency is investigating Google over possible antitrust violations and will subject Facebook to audits of its privacy policy for the next 20 years. Its next steps could serve as a bellwether of how aggressively the commission will take on Web companies in the second Obama administration.
+
+“Now that the election is over, Silicon Valley companies each are thinking through their strategy for the second Obama administration,” said Peter Swire, a law professor at Ohio State University and a former White House privacy official. “The F.T.C. will have a new Democratic chairman. A priority for tech companies will be to discern the new chair’s own priorities.”
+
+In early 2012, an unusual burst of lobbying by tech companies helped defeat antipiracy bills, which had been backed by the entertainment industry. Silicon Valley giants like Facebook and Google feared that the bills would force them to police the Internet.
+
+At the end of the year, Silicon Valley also got its way when the Obama administration stood up against a proposed global treaty that would have given government authorities greater control over the Web.
+
+The key to the industry’s successes in 2012 was simple: it expanded its footprint in Washington just as Washington began to pay closer attention to how technology companies affect consumers. “Privacy and security became top-tier important policy issues in Washington in 2012,” said David A. Hoffman, director of security policy and global privacy officer at Intel.
+
+“Industry has realized it is important to be engaged,” he continued, “to make sure government stakeholders are fully informed and educated about the role that new technology plays and to make sure any action taken doesn’t unnecessarily burden the innovation economy while still protecting individual trust in new technology.”
+
+At the end of 2012, tech companies were on track to have spent record amounts on lobbying for the year. In the first three quarters, they spent close to $100 million, which meant that they were likely to surpass the $127 million they spent on lobbying in 2011, according to an analysis by the Center for Responsive Politics, a Washington-based nonpartisan group that tracks corporate spending. Even the venture capital firm Andreessen Horowitz hired a lobbyist in Washington: Adrian Fenty, a former mayor of the city.
+
+Technology executives and investors also made generous contributions in the 2012 presidential race, luring both President Obama and Mitt Romney to Northern California for fund-raisers and nudging them to speak out on issues like immigration overhaul and lower tax rates.
+
+In a blog post in November, the center said Silicon Valley’s lobbying expenditures have ballooned in recent years, even as spending by other industries has fallen.
+
+Facebook more than doubled its lobbying outlay in the year, reporting close to $2.6 million through the third quarter of 2012. Google spent more than any other company in the industry, doling out more than $13 million in the same period and more than double its nearest competitor, Microsoft, which spent just over $5.6 million in the same period.
+
+Among Google’s advocates on Capitol Hill is a former Republican congresswoman, Susan Molinari, who heads Google’s office in Washington.
+
+Google has particular reason to be engaged. It faces a wide-reaching antitrust investigation by the Federal Trade Commission, just as Microsoft did a decade ago. At issue is whether Google’s search engine results favor Google products over its rivals’.
+
+Although the agency was ready to settle that case before the holidays, without harsh remedies, late last month it shelved the inquiry and put stronger penalties back in play. A resolution is expected in January.
