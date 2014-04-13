@@ -2,7 +2,7 @@ from os import listdir
 #from textblob import TextBlob
 import re
 from os.path import isfile, join
-INPUT = "text_extracted"
+INPUT = "Raw"
 LABELS = ["PER", "LOC", "ORG"]
 
 #PARAMETERS
@@ -65,7 +65,6 @@ def subword_filter(text, index, word) :
     if  unicode.isalnum(text[index-1]) or unicode.isalnum(text[index+len(word)]) :
         return False
     return True
-
 
 class Document :
     def __init__(self, filepath) :
@@ -149,9 +148,9 @@ class Document :
                     traverse = len(self.text)
                     break
                 traverse = index+len(word)
-                #if  unicode.isalnum(self.text[index-1]) or \
-                #        unicode.isalnum(self.text[index+len(word)-1]) :
-                #            continue
+                if  unicode.isalnum(self.text[index-1]) or \
+                        unicode.isalnum(self.text[index+len(word)-1]) :
+                            continue
                 #count += 1
                 #print count
                 next_word = get_next_word(self.text, index+len(word))
@@ -242,7 +241,7 @@ def add_to_dict(ne, label):
             pair[0].append(ne)
             #print 'Adding ', ne, 'to ', pair[2], 'with score ', NE_SCORES[ne]
 
-
+#startalgorithm
 # Initialize dictionary
 for tup in [(PER_DICT,"PER.txt"),(ORG_DICT,"ORG.txt"),(LOC_DICT,"LOC.txt")] :
     dictionary, f = tup[0], open(tup[1],"r")
@@ -307,7 +306,6 @@ with open('rules.txt', 'w') as fp:
                                 CNE[r]["LOC"] = []
                                 CNE[r]["ORG"] = []
                             CNE[r][rule.label].append(rule)
-            
                             add_entity_rule(r, rule)
             #Make NE labels consistent across document
             for name in CNE.keys() :
