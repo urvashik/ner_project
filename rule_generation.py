@@ -2,7 +2,7 @@ from os import listdir
 #from textblob import TextBlob
 import re
 from os.path import isfile, join
-INPUT = "Raw"
+INPUT = "text_extracted"
 LABELS = ["PER", "LOC", "ORG"]
 
 #PARAMETERS
@@ -34,7 +34,7 @@ NE_TYPE = [(PER_DICT,CR_PER,"PER"), (ORG_DICT,CR_ORG,"ORG"), (LOC_DICT,CR_LOC,"L
 def get_next_word(text, index) :
     buf = []
     #Stop if no following word
-    if index+1 == len(text) or text[index+1] == '.' :
+    if index+1 >= len(text) or text[index+1] == '.' :
         return ""
     index += 1
     while index < len(text) and unicode.isalnum(text[index]) :
@@ -139,7 +139,7 @@ class Document :
 
 
     def find_rules(self,gazetteer, label) :
-        
+        count = 0
         rules = []
         for word in gazetteer :
             traverse = 0
@@ -149,9 +149,11 @@ class Document :
                     traverse = len(self.text)
                     break
                 traverse = index+len(word)
-                if  unicode.isalnum(self.text[index-1]) or \
-                        unicode.isalnum(self.text[index+len(word)]) :
-                            continue
+                #if  unicode.isalnum(self.text[index-1]) or \
+                #        unicode.isalnum(self.text[index+len(word)-1]) :
+                #            continue
+                #count += 1
+                #print count
                 next_word = get_next_word(self.text, index+len(word))
                 prev_word = get_prev_word(self.text, index)
                 #print "WORD:"+word
@@ -252,6 +254,7 @@ for tup in [(PER_DICT,"PER.txt"),(ORG_DICT,"ORG.txt"),(LOC_DICT,"LOC.txt")] :
 onlyfiles = [ f for f in listdir(INPUT) if isfile(join(INPUT,f)) ]
 for f in onlyfiles :
     CORPUS.append(Document(INPUT+"/"+f))
+    #print 'Adding size', len(CORPUS[-1].text)
 
 
 with open('rules.txt', 'w') as fp:
@@ -267,6 +270,7 @@ with open('rules.txt', 'w') as fp:
                     #Generate candidate rules
             
                     candidate_rules.extend(doc.find_rules(dictionary, label))
+                #print len(candidate_rules)
             
             #Rule promotion
             for pair in NE_TYPE:
