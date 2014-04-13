@@ -253,7 +253,7 @@ onlyfiles = [ f for f in listdir(INPUT) if isfile(join(INPUT,f)) ]
 for f in onlyfiles :
     CORPUS.append(Document(INPUT+"/"+f))
 
-for i in range(4):
+for i in range(30):
     print 'iteration #', i
     #generate global set of rules
     for doc in CORPUS :
@@ -271,7 +271,7 @@ for i in range(4):
 
     print 'Promoted Rules...'
     for rule in RULES:
-        print rule.label + '\t' + rule.prefix + '\t' + rule.suffix + '\t' +str(RULE_SCORES[rule])
+        print rule.label + '\t' + rule.prefix + '\t' + rule.suffix + '\t'+unicode(RULE_SCORES[rule])
 
     print '\n\n'
     
@@ -324,7 +324,7 @@ for i in range(4):
     for ne in CNE:
         for label in CNE[ne]:
             score_ne(ne, label)
-            print ne +'\t'+label+'\t'+str(NE_SCORES[ne])
+            print ne +'\t'+label+'\t'+unicode(NE_SCORES[ne])
 
     print '\n\n'
 
