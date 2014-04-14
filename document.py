@@ -1,5 +1,4 @@
 from os import listdir
-from rule import Rule
 import re
 from os.path import isfile, join
 from helper import *
