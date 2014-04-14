@@ -19,6 +19,9 @@ class Controller :
     def promote_rules(self, threshold, max) :
         return self.state.promote_rules(threshold, max)
 
-    def find_ne(self, ne_type) :
-        self.state.match_b_rules(ne_type)
-        #self.state.match_f_rules(ne_type)
+    def promote_ne(self, threshold, max) :
+        return self.state.promote_ne(threshold, max)
+
+    def find_ne(self) :
+        self.state.find_ne()
+

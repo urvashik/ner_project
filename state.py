@@ -10,11 +10,18 @@ class State :
         self.corpus = []
         self.add_corpus("Raw")
         self.dictionaries = dict()
+    
+        #From all iteration
+        self.ne = dict()
+        #From last iteration
+        self.ne_recent = dict()
 
         self.rules = dict()
+        self.rules_recent = dict()
 
         #Find inconsistent rules
         self.candidate_rules = dict()
+        self.candidate_ne = dict()
 
         self.init_dict("PER", "PER.txt")
         self.init_dict("ORG", "ORG.txt")
@@ -55,36 +62,90 @@ class State :
             self.candidate_rules[rule].insert(ne_type)
 
     def promote_rules(self, threshold, max_to_promote) :
-        def sort_by_score(rules, score_dict) :
-            return sorted(rules, \
-                    key=lambda x:score_dict[x].get_majority(), reverse=True)
-
-        def get_score(rule, score_dict) :
-            return score_dict[rule].get_majority()
-
         def promote(rule_list) :
             for rule in rule_list :
                 if rule in self.rules : 
+                    #Old rule don't help us find new NE. 
+                    #However, we still update score based on new observation.
                     self.rules[rule].merge(self.candidate_rules[rule])
                 else :
+                    self.rules_recent[rule] = self.candidate_rules[rule]
                     self.rules[rule] = self.candidate_rules[rule]
             return rule_list
 
         rule_dict = self.candidate_rules
-        rules = sort_by_score(rule_dict.keys(), rule_dict)
-        rules = [r for r in rules if get_score(r, rule_dict) > threshold]
+        rules = sort_by_score(rule_dict)
+        rules = [r for r in rules if rule_dict[r].get_majority() > threshold]
         return promote(rules[:max_to_promote])
 
-    def match_b_rules(self, ne_type) :
-        rule_list = self.b_rules[ne_type]
-        for rule in rule_list :
-            prefix = rule.prefix
-            for doc in self.corpus :
-                indicies = [m.start()+len(prefix) for m in re.finditer(prefix, doc.text)]
-                indicies = [index for index in indicies \
-                        if subword_filter(doc.text, index,prefix)]
-                #print list(set([get_prev_word(doc.text, index) for index in indicies]))
-                if len(indicies) > 0 :
-                    print indicies
-                
+    def promote_ne(self, threshold, max_to_promote) :
+        def promote(ne_list) :
+            for name in ne_list :
+                if name in self.ne :
+                    self.ne[name].merge(self.candidate_ne[name])
+                else :
+                    self.ne_recent[name] = self.candidate_ne[name]
+                    self.ne[name] = self.candidate_ne[name]
+            return ne_list
+        ne_dict = self.candidate_ne
+        ne_list = sort_by_score(ne_dict)
+        for ne in ne_list :
+            print "ne:"+ne+" score:"+str(ne_dict[ne].get_majority())
+        ne_list = [ne for ne in ne_list if ne_dict[ne].get_majority() > threshold]
+        return promote(ne_list[:max_to_promote])
 
+
+    def find_ne(self) :
+        def insert_candidate_ne(ne, rule_type, rule_score) :
+            if len(ne) == 0 :
+                return
+            if ne not in self.candidate_ne.keys() :
+                self.candidate_ne[ne] = MajorityDict()
+            self.candidate_ne[ne].insert(rule_type, rule_score)
+
+        def distance_close(text, l_bound, r_bound) :
+            if -1 == text[l_bound:r_bound].find('.') :
+                return True
+            return False
+        def search_substring(text, query, traverse) :
+            if query == "" :
+                #Empty rule
+                return traverse, traverse
+            while traverse < len(text) :
+                candidate_index = text.find(query, traverse)
+                '''New traverse pointer should not point to same index
+                as query to prevent infinite loop'''
+                traverse = candidate_index+len(query)
+                if candidate_index == -1 :
+                    return -1, len(text)
+                if subword_filter(text, candidate_index, query) : 
+                    return candidate_index, traverse
+            return -1, len(text)
+
+        #You only find new NE from newly promoted rules
+        rule_list = self.rules_recent
+        for rule in rule_list :
+            info = self.get_type_and_score(rule)
+            rule_score, rule_type = info[1], info[0]
+            for doc in self.corpus : 
+                text = doc.text
+                traverse = 0
+                while traverse < len(text) :
+                    l_bound, traverse= search_substring(text,rule[0],traverse)
+                    if l_bound == -1 :
+                        break
+                    r_bound, traverse = search_substring(text,rule[1],traverse)
+                    if r_bound == -1 :
+                        traverse = len(text)
+                        break
+                    ''' If rule parts are too distance or different sentences, do
+                    not count '''
+                    if not distance_close(text, l_bound, r_bound) :
+                        break
+                    ''' If the rule only specifies previous token, seek forward
+                    word. Otherwise, you find the wrong NE'''
+                    if len(rule[1]) == 0:
+                        ne = get_next_word(text, r_bound)
+                    else :
+                        ne = get_prev_word(text, r_bound)
+                    insert_candidate_ne(ne, rule_type, rule_score)

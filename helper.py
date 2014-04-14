@@ -54,9 +54,14 @@ class MajorityDict :
         return self.max[1]
 
 def subword_filter(text, index, word) :
-    print word
-    print text[index-1 : index+len(word)+2]
     if  str.isalnum(text[index-1]) or str.isalnum(text[index+len(word)]) :
         return False
     return True
 
+def sort_by_score(score_dict) :
+    obj_list = score_dict.keys()
+    return sorted(obj_list, \
+            key=lambda x:score_dict[x].get_majority(), reverse=True)
+
+def get_score(rule, score_dict) :
+    return score_dict[rule].get_majority()
