@@ -4,6 +4,7 @@ class Controller :
     def __init__(self) :
         self.state = State()
 
+    #Can define halting condition based on extraction count
     def get_ne_types(self) :
         return self.state.get_ne_types()
 
@@ -26,6 +27,7 @@ class Controller :
         #print self.state.rules_recent
         self.state.find_ne()
     
+    #Reset candidates for next iteration.
     def end_iteration(self) :
         self.state.candidate_rules = dict()
         self.state.candidate_ne = dict()

@@ -59,7 +59,9 @@ class MajorityDict :
         return self.max[1]
 
 def subword_filter(text, index, word) :
-    if  str.isalnum(text[index-1]) or str.isalnum(text[index+len(word)]) :
+    term1 = index-1 > 0 and str.isalnum(text[index-1])
+    term2 = index+len(word) >= len(text) and str.isalnum(text[index+len(word)])
+    if term1 or term2 :
         return False
     return True
 
