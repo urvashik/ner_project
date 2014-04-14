@@ -1,8 +1,13 @@
-George Washington
-John Adams
-Thomas Jefferson
-James Madison
-James Monroe
+George 
+Washington
+John 
+Adams
+Thomas 
+Jefferson
+James 
+Madison
+James 
+Monroe
 John Quincy Adams
 Andrew Jackson
 Martin Van Buren
@@ -39,6 +44,9 @@ Gerald Ford
 Jimmy Carter
 Ronald Reagan
 George Bush
-Bill Clinton
+Bill 
+Clinton
 George W. Bush
-Barack Obama
+Barack 
+Obama
+the

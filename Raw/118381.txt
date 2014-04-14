@@ -1,0 +1,45 @@
+NEW YORK  A bitter battle between Apple Inc and a lawyer appointed to monitor its compliance with a court antitrust ruling escalated on Monday, as the U.S. government and the monitor both hit back at Apple.
+
+Over the last two months, Apple has launched a broad legal attack on the monitor, Michael Bromwich, who was appointed by a federal judge after a ruling that the company conspired to fix e-book prices.
+
+Apple has said in court filings that Bromwich overstepped his mandate and that he was causing irreparable harm to the company. Apple has also argued that Bromwich's personal financial interest in investigating the company violated its right to a disinterested prosecutor under the due process clause of the U.S. Constitution.
+
+Apple also asked U.S. District Judge Denise Cote to stay her order requiring a monitor pending its appeals of the price-fixing judgment.
+
+In a filing on Monday, the Justice Department urged Cote to reject the request, arguing that Apple's legal attacks on Bromwich "only highlight the critical need for his monitorship to continue uninterrupted." Bromwich, the government argued, has acted well within his authority.
+
+The government said that the company was seeking to "shield its highest-level executives and board members from the perceived inconvenience" of having to sit for interviews with Bromwich.
+
+In a separate declaration, accompanied by dozens of exhibits, Bromwich disputed Apple's contention that he had engaged in a "roving" investigation.
+
+"The request for limited preliminary background interviews to learn about corporate structure, process, culture, and tone does not convert monitoring into an investigation of any kind, much less into a 'roving investigation' or a 'broad and amorphous inquisition,'" he wrote.
+
+A spokesman for Apple did not respond to an email requesting comment.
+
+Following a 2-1/2-week trial, Cote ruled on July 10 that Apple was liable for conspiring with five publishers to raise e-book prices above those established by the dominant retailer in the market, Amazon Inc.
+
+She imposed an injunction against the company in September and in October she appointed Bromwich, a former federal prosecutor, to review Apple's antitrust compliance policies, procedures and training for two years.
+
+But the relationship between Apple and Bromwich quickly spiraled downward.
+
+On November 27, Apple complained that Bromwich had aggressively sought to interview top executives, even though his appointment called for him to assess the company's antitrust policies 90 days after his appointment.
+
+Apple also cited Bromwich's proposed hourly rate of $1,100 and a 15 percent administrative fee charged by his consulting firm, The Bromwich Group, on top of all billable hours.
+
+Those fees, Apple argued, provided Bromwich incentive to run "as broad and intrusive investigation as possible."
+
+In October, an in-house attorney at Apple wrote an email to Bromwich expressing concerns about his proposed compensation. Apple, the lawyer said, does not pay any of its legal vendors administrative fees. He also indicated that Apple would be willing to pay Bromwich $800 an hour, not $1,110.
+
+Bromwich resisted changing terms of his compensation, according to an exhibit filed with the court.
+
+"We are serving as an independent compliance monitor pursuant to a Court order, not as counsel to Apple subject to its direction and control," he wrote.
+
+Bromwich also defended his efforts to interview Apple executives before the 90-day period expired. In an email to one of Apple's outside lawyers, Theodore Boutrous of Gibson, Dunn & Crutcher, Bromwich said nothing prevented him from starting his work as a monitor immediately.
+
+"As I'm sure you know, many monitorships involve specific deadlines the monitored entity is required to meet," Bromwich wrote. "To my knowledge, the existence of such deadlines has never been viewed as a reason for the monitor to defer his work until the deadlines have passed."
+
+In his declaration, Bromwich also said that in the two months since his appointment, he has been given access to one board member and one senior executive.
+
+"This is far less access than I have ever received during a comparable period of time in three other monitorships I have conducted," he wrote.
+
+The case is U.S. v. Apple Inc et al, U.S. District Court, Southern District of New York.

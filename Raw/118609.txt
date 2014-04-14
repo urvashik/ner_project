@@ -1,0 +1,11 @@
+A new computer algorithm can subtly modify the image of a persons face to make it easier or harder to remember.
+
+The formula was developed by researchers at M.I.T. who presented volunteers with thousands of images of faces and evaluated their ability to remember those faces. Each picture was given a score, based on how memorable it was.
+
+When given a face to modify, the algorithm generates thousands of copies of it and then modifies each one subtly, refining it further as it goes along. The researchers do not know exactly what the changes are, said the studys senior author, Aude Oliva, who presented the work this month at the International Conference on Computer Vision. The algorithm may add the slightest raise of an eyebrow or the slightest squint of an eye.
+
+It looks like the faces that are more memorable are a little slimmer, but that is just my interpretation, Dr. Oliva said. And those that are more forgettable look a little rounder, but we really do not know.
+
+Still, making a good, long-lasting impression on another individual is hardly a technical matter.
+
+Lets not forget that at the end of a day a big smile does it, Dr. Oliva said.

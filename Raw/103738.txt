@@ -1,0 +1,37 @@
+Googles idea to scan millions of books and make them searchable online seemed audacious when it was announced in 2004. But fast-forward to today, when people expect to find almost anything they want online, and the plan seems like an unsurprising and unavoidable part of todays Internet.
+
+So when a judge on Thursday dismissed a lawsuit that authors had filed against Google after countless delays, it had the whiff of inevitability. Even the judge, Denny Chin of the United States Court of Appeals for the Second Circuit, said during a September hearing on the case that his law clerks used Google Books for research.
+
+It advances the progress of the arts and sciences, while maintaining respectful consideration for the rights of authors and other creative individuals, and without adversely impacting the rights of copyright holders, Judge Chin wrote in his ruling. Indeed, all society benefits. (Judge Chin handled the case in district court because he was a judge there when it began.)
+
+The Authors Guild said it disagreed with the decision and planned to appeal. Google said it was delighted with the outcome.
+
+Google began its book-scanning project in 2004, without obtaining permission from copyright holders. The next year, groups representing authors and publishers sued Google claiming copyright violations, beginning an eight-year court battle.
+
+In the meantime, Google has continued to scan more than 20 million books, the majority of which are out of print, without compensating copyright holders. They are searchable on the Google Books website, which returns snippets but not entire texts. Some full books are for sale on Google Play through partnerships with publishers. Google also has certain agreements to give libraries and publishers digital copies of their books that it scans.
+
+Google and other technology companies often push the limits of regulation and law, and hope that eventually the rest of the world  and the law  will catch up.
+
+What seemed insanely ambitious and this huge effort that seemed very dangerous in 2004 now seems ordinary, said James Grimmelmann, a law professor at the University of Maryland who has followed the case closely. Technology and media have moved on so much that its just not a big deal.
+
+The ruling examined whether Googles use of copyrighted works counted as so-called fair use under copyright law, which Judge Chin determined it did. The decision opened the door for other companies to also scan books.
+
+Googles book search is transformative, he wrote, because words in books are being used in a way they have not been used before. It does not replace books, he wrote, because Google does not allow people to read entire books online. It takes security measures, like not showing one out of every 10 pages in each book, to prevent people from trying to do so.
+
+One potential problem for Google was the notion that using copyrighted material for moneymaking purposes weighs against a finding of fair use. Though the company does not sell the books and stopped running ads alongside them in 2011, it benefits commercially because people are drawn to Google websites to search the books, Judge Chin wrote. But, he added, Even assuming Googles principal motivation is profit, the fact is that Google Books serves several important educational purposes.
+
+He cited the benefits for librarians, researchers, students, teachers, scholars, data scientists and underserved populations like disabled people who cannot read print books or those in remote places without libraries. He said it also helped authors and publishers by creating new audiences and sources of income.
+
+In this day and age of online shopping, there can be no doubt that Google Books improves books sales, he wrote.
+
+The case had been in limbo since 2011, when Judge Chin rejected a $125 million settlement proposed by the two sides. The publishers group later split from that of the authors and reached its own agreement with Google that was not subject to court approval, while the authors continued with their lawsuit.
+
+Paul Aiken, the executive director of the Authors Guild, said in an interview that the result was obviously disappointing and that the authors would appeal. Google created unauthorized digital versions of most of the worlds copyright-protected books  certainly most of the valuable copyright-protected books in the world, he said.
+
+Google issued a statement that said, Google Books is in compliance with copyright law and acts like a card catalog for the digital age  giving users the ability to find books to buy or borrow.
+
+The long time that it took for the case to be decided may have helped Google significantly, because it effectively resolved many of the concerns about the scanning project, said Nancy Sims, a copyright program librarian at the University of Minnesota. Seeing it in action may have had an influence on the strength of the fair use ruling here, Ms. Sims said.
+
+Case law has changed during that time, but so has the attitude toward digital texts, said Jonathan Band, a copyright lawyer for the Library Copyright Alliance, which filed an amicus brief in support of Google.
+
+Theres an understanding that the way this technology works, theres going to be copying, he said. And that theres a sensibility in the courts that as long as the whole work is not displayed, and as long as the rights-holder isnt harmed, then this copying that goes on behind the curtain just doesnt matter.

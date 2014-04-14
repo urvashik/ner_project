@@ -1,0 +1,39 @@
+Will 2014 be the year that the Internet is reined in?
+
+When Edward J. Snowden, the disaffected National Security Agency contract employee, purloined tens of thousands of classified documents from computers around the world, his actions  and their still-reverberating consequences  heightened international pressure to control the network that has increasingly become the worlds stage. At issue is the technical principle that is the basis for the Internet, its any-to-any connectivity. That capability has defined the technology ever since Vinton Cerf and Robert Kahn sequestered themselves in the conference room of a Palo Alto, Calif., hotel in 1973, with the task of interconnecting computer networks for an elite group of scientists, engineers and military personnel.
+
+The two men wound up developing a simple and universal set of rules for exchanging digital information  the conventions of the modern Internet. Despite many technological changes, their work prevails.
+
+But while the Internets global capability to connect anyone with anything has affected every nook and cranny of modern life  with politics, education, espionage, war, civil liberties, entertainment, sex, science, finance and manufacturing all transformed  its growth increasingly presents paradoxes.
+
+It was, for example, the Internets global reach that made classified documents available to Mr. Snowden  and made it so easy for him to distribute them to news organizations.
+
+Yet the Internet also made possible widespread surveillance, a practice that alarmed Mr. Snowden and triggered his plan to steal and publicly release the information.
+
+With the Snowden affair starkly highlighting the issues, the new year is likely to see renewed calls to change the way the Internet is governed. In particular, governments that do not favor the free flow of information, especially if its through a system designed by Americans, would like to see the Internet regulated in a way that would Balkanize it by preventing access to certain websites.
+
+The debate right now involves two international organizations, usually known by their acronyms, with different views: Icann, the Internet Corporation for Assigned Names and Numbers, and the I.T.U., or International Telecommunication Union.
+
+Icann, a nonprofit that oversees the Internets basic functions, like the assignment of names to websites, was established in 1998 by the United States government to create an international forum for governing the Internet. The United States continues to favor this group.
+
+The I.T.U., created in 1865 as the International Telegraph Convention, is the United Nations telecommunications regulatory agency. Nations like Brazil, China and Russia have been pressing the United States to switch governance of the Internet to this organization.
+
+Dr. Cerf, 70, and Dr. Kahn, 75, have taken slightly different positions on the matter. Dr. Cerf, who was chairman of Icann from 2000-7, has become known as an informal Internet ambassador and a strong proponent of an Internet that remains independent of state control. He has been one of the major supporters of the idea of network neutrality  the principle that Internet service providers should enable access to all content and applications, regardless of the source.
+
+Dr. Kahn has made a determined effort to stay out of the network neutrality debate. Nevertheless, he has been more willing to work with the I.T.U., particularly in attempting to build support for a system, known as Digital Object Architecture, for tracking and authenticating all content distributed through the Internet.
+
+Both men agreed to sit down, in separate interviews, to talk about their views on the Internets future. The interviews were edited and condensed.
+
+After serving as a program manager at the Pentagons Defense Advanced Research Projects Agency, Vinton Cerf joined MCI Communications Corp., an early commercial Internet company that was purchased by Verizon in 2006, to lead the development of electronic mail systems for the Internet. In 2005, he became a vice president and Internet evangelist for Google. Last year he became the president of the Association for Computing Machinery, a leading international educational and scientific computing society.
+
+Q. Edward Snowdens actions have raised a new storm of controversy about the role of the Internet. Is it a significant new challenge to an open and global Internet?
+
+A. The answer is no, I dont think so. There are some similar analogues in history. The French historically copied every telex or every telegram that you sent, and they shared it with businesses in order to remain competitive. And when that finally became apparent, it didnt shut down the telegraph system.
+
+The Snowden revelations will increase interest in end-to-end cryptography for encrypting information both in transit and at rest. For many of us, including me, who believe that is an important capacity to have, this little crisis may be the trigger that induces people to spend time and energy learning how to use it.
+
+Youve drawn the analogy to a road or highway system. That brings to mind the idea of requiring a drivers license to use the Internet, which raises questions about responsibility and anonymity.
+
+I still believe that anonymity is an important capacity, that people should have the ability to speak anonymously. Its argued that people will be encouraged to say untrue things, harmful things, especially if they believe they are anonymous.
+
+There is a tension there, because in some environments the only way you will be able to behave safely is to have some anonymity.

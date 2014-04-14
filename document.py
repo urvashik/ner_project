@@ -15,15 +15,14 @@ class Document :
         for ne in gazetteer :
             traverse = 0
             while traverse < len(self.text) :
-                index = self.text.find(ne.name, traverse)
+                index = self.text.find(ne, traverse)
                 if index < 0 :
                     traverse = len(self.text)
                     break
-                traverse = index+ne.len
-                if str.isalnum(self.text[index-1]) or \
-                        str.isalnum(self.text[index+ne.len]) :
-                            continue
-                next_word = get_next_word(self.text, index+ne.len)
+                traverse = index+len(ne)
+                if subword_filter(self.text, index, ne):
+                    continue
+                next_word = get_next_word(self.text, index+len(ne))
                 prev_word = get_prev_word(self.text, index)
                 if len(prev_word) > 1 :
                     rules.append((prev_word, ""))

@@ -1,0 +1,43 @@
+There are many things that make humans a unique species, but a couple stand out. One is our mind, the other our brain.
+
+The human mind can carry out cognitive tasks that other animals cannot, like using language, envisioning the distant future and inferring what other people are thinking.
+
+The human brain is exceptional, too. At three pounds, it is gigantic relative to our body size. Our closest living relatives, chimpanzees, have brains that are only a third as big.
+
+Scientists have long suspected that our big brain and powerful mind are intimately connected. Starting about three million years ago, fossils of our ancient relatives record a huge increase in brain size. Once that cranial growth was underway, our forerunners started leaving behind signs of increasingly sophisticated minds, like stone tools and cave paintings.
+
+But scientists have long struggled to understand how a simple increase in size could lead to the evolution of those faculties. Now, two Harvard neuroscientists, Randy L. Buckner and Fenna M. Krienen, have offered a powerful yet simple explanation.
+
+In our smaller-brained ancestors, the researchers argue, neurons were tightly tethered in a relatively simple pattern of connections. When our ancestors brains expanded, those tethers ripped apart, enabling our neurons to form new circuits.
+
+Dr. Buckner and Dr. Krienen call their idea the tether hypothesis, and present it in a paper in the December issue of the journal Trends in Cognitive Sciences.
+
+I think it presents some pretty exciting ideas, said Chet C. Sherwood, an expert on human brain evolution at George Washington University who was not involved in the research.
+
+Dr. Buckner and Dr. Krienen developed their hypothesis after making detailed maps of the connections in the human brain using f.M.R.I. scanners. When they compared their maps with those of other species brains, they saw some striking differences.
+
+The outer layers of mammal brains are divided into regions called cortices. The visual cortex, for example, occupies the rear of the brain. That is where neurons process signals from the eyes, recognizing edges, shading and other features.
+
+There are cortices for the other senses, too. The sensory cortices relay signals to another set of regions called motor cortices. The motor cortices send out commands. This circuit is good for controlling basic mammal behavior. You experience something in the world and you respond to it, Dr. Krienen said.
+
+This relatively simple behavior is reflected in how the neurons are wired. The neurons in one region mostly make short connections to a neighboring region. They carry signals through the brain like a bucket brigade from the sensory cortices to the motor cortices.
+
+The bucket brigade begins to take shape when mammals are still embryos. Different regions of the brain release chemical signals, which attract developing neurons.
+
+They will tell a neuron, Youre destined to go to the back of the brain and become a visual neuron, for example, Dr. Krienen said.
+
+After mammals are born, their experiences continue to strengthen this wiring. As a mammal sees more of the world, for example, neurons in the visual cortex form more connections to the motor cortices, so that the bucket brigade moves faster and more efficiently.
+
+Human brains are different. As they got bigger, their sensory and motor cortices barely expanded. Instead, it was the regions in between, known as the association cortices, that bloomed.
+
+Our association cortices are crucial for the kinds of thought that we humans excel at. Among other tasks, association cortices are crucial for making decisions, retrieving memories and reflecting on ourselves.
+
+Association cortices are also unusual for their wiring. They are not connected in the relatively simple, bucket-brigade pattern found in other mammal brains. Instead, they link to one another with wild abandon. A map of association cortices looks less like an assembly line and more like the Internet, with each region linked to others near and far.
+
+Dr. Buckner and Dr. Krienen argue that this change occurred because of the way brains develop. In the human brain, some neurons still receive chemical signals that cause them to form a bucket brigade from the sensory cortices to the motor cortices. But because of the brains size, some neurons are too far from the signals to follow their commands. They may have broken off and formed a new circuit, Dr. Buckner said.
+
+This new wiring may have been crucial to the evolution of the human mind. Our association cortices liberate us from the rapid responses of other mammal brains. These new brain regions can communicate without any input from the outside world, discovering new insights about our environment and ourselves.
+
+Dr. Buckner foresees a number of ways in which the tether hypothesis could be tested. For example, many mammal brains, including chimpanzees, have yet to be fully mapped. Were hoping that in the next 10 or 15 years, that might be possible, he said.
+
+Dr. Sherwood, the George Washington University expert, praised the hypothesis for being fairly frugal. The emergence of the human mind might not have been a result of a vast number of mutations that altered the fine structure of the brain. Instead, a simple increase in the growth of neurons could have untethered them from their evolutionary anchors, creating the opportunity for the human mind to emerge.

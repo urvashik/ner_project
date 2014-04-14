@@ -1,0 +1,35 @@
+I like to plan ahead; that much I knew about myself before I plunged into exploring my genetic code. Im a healthy 28-year-old woman, but some nasty diseases run in my family: coronary heart disease , rheumatoid arthritis , Alzheimers and breast cancer .
+
+So I decided to read the tea leaves of my DNA. I reasoned that it was worth learning painful information if it might help me avert future illness.
+
+Like others, I turned to genetic testing, but I wondered if I could trust the nascent field to give me reliable results. In recent years, a handful of studies have found substantial variations in the risks for common diseases predicted by direct-to-consumer companies.
+
+I set out to test the tests: Could three of them agree on me?
+
+The answers were eye-opening  and I received them just as one of the companies, 23andMe, received a stern warning from the Food and Drug Administration over concerns about the accuracy of its product. At a time when the future of such companies hangs in the balance, their ability to deliver standardized results remains dubious, with far-reaching implications for consumers.
+
+My experiment ran into hurdles from the start. After I ordered 23andMes saliva test kit, which for $99 promised a report on more than 240 health conditions and traits, it turned out that I could not legally send it in; the New York State Health Department forbids any labs that lack a state permit to accept specimens from a health-related test. Luckily, my in-laws mailed it from their home in New Jersey.
+
+Then I learned that the other two companies I planned to approach were no longer offering genetic testing. Additional research led me to two more: Genetic Testing Laboratories and Pathway Genomics. G.T.L. charged $285 for a report on 25 disease risks, and required a professional sample collector to draw blood; Pathway charged $399 for a report on 24 disease risks. (In 2010, Pathway planned to sell its saliva test kit at Walgreens, but abandoned the idea after the F.D.A. challenged the sales. Now Pathway requires a doctor to order a kit on a patients behalf.)
+
+After my tests had been sent, I braced myself for the revelations about my DNA. It took about two months to receive all the results, and when I did, the discrepancies were striking.
+
+23andMe said my most elevated risks  about double the average for women of European ethnicity  were for psoriasis and rheumatoid arthritis, with my lifetime odds of getting the diseases at 20.2 percent and 8.2 percent. But according to Genetic Testing Laboratories, my lowest risks were for  you guessed it  psoriasis (2 percent) and rheumatoid arthritis (2.6 percent).
+
+For coronary heart disease, 23andMe and G.T.L. agreed that I had a close-to-average risk, at 26 to 29 percent, but Pathway listed my odds as above average.
+
+In the case of Type 2 diabetes, inconsistencies on a semantic level masked similarities in the numbers. G.T.L. said my risk was medium at 10.3 percent, but 23andMe said my risk was decreased at 15.7 percent. In fact, both companies had calculated my odds to be roughly three-quarters of the average, but they used slightly different averages  and very different words  to interpret the numbers. In isolation, the first would have left me worried; the second, relieved.
+
+Medical ethicists and other experts have a different kind of worry about results like these: a lack of industry standards for weighing risk factors and defining terminology.
+
+The risk is in the eye of the beholder standard is not going to work, said Arthur L. Caplan, director of medical ethics at the New York University Langone Medical Center. We need to get some kind of agreement on what is high risk, medium risk and low risk.
+
+Several other problems may account for my discrepancies. The genetic testing that these three companies offer is premised on reading segments of DNA called SNPs (pronounced snips), for single nucleotide polymorphisms. But these segments, which have been linked to diseases in research studies, vary among people.
+
+Scientists have identified about 10 million SNPs within our three billion nucleotides. But an entire genome sequencing  looking at all three billion nucleotides  would cost around $3,000; the tests I took examined fewer than a million SNPs.
+
+Imagine if you took a book and you only looked at the first letter of every other page, said Dr. Robert Klitzman, a bioethicist and professor of clinical psychiatry at Columbia. (I am a graduate student there in his Master of Bioethics program.) Youre missing 99.9 percent of the letters that make the genome. The information is going to be limited.
+
+Companies choose which SNPs to read. By comparing the technical reports provided with my results, I found that my tests sometimes relied on different SNPs to assess the same condition, like coronary heart disease. Each test studied four to 15 markers, with almost zero overlap, though two tests reached similar conclusions about my odds.
+
+In the case of rheumatoid arthritis, though, the tests examined the same five markers, plus a few others, and delivered contradictory interpretations.

@@ -7,14 +7,14 @@ class Controller :
     def get_ne_types(self) :
         return self.state.get_ne_types()
 
-    def find_rules(self, ne_type) :
-        dictionary = self.state.dictionaries[ne_type]
-        rules = []
-        for doc in self.state.corpus :
-            rules_i = doc.find_rules(dictionary)
-            if len(rules_i) > 0 :
-                rules.extend(rules_i)
-        self.state.log_rules(ne_type, rules)
+    def find_rules(self) :
+        for ne in self.state.ne_recent.keys() :
+            rules = []
+            for doc in self.state.corpus :
+                rules_i = doc.find_rules([ne])
+                if len(rules_i) > 0 :
+                    rules.extend(rules_i)
+            self.state.log_rules(ne, rules)
     
     def promote_rules(self, threshold, max) :
         return self.state.promote_rules(threshold, max)
@@ -22,6 +22,10 @@ class Controller :
     def promote_ne(self, threshold, max) :
         return self.state.promote_ne(threshold, max)
 
-    def find_ne(self) :
+    def find_ne(self):
+        #print self.state.rules_recent
         self.state.find_ne()
-
+    
+    def end_iteration(self) :
+        self.state.candidate_rules = dict()
+        self.state.candidate_ne = dict()

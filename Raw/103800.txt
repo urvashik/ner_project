@@ -1,0 +1,45 @@
+SAN FRANCISCO  If you post something on Facebook, let there be no doubt that it can end up as an ad shown to your friends and acquaintances.
+
+Facebook pressed forward on Friday with official changes to its privacy policies, first proposed in August, that make the terms of using Facebook more clear than ever: By having an account on the service, its 1.2 billion global users are allowing the company to use their postings and other personal data for advertising.
+
+And teenagers are no exception. Although the company deleted language that said parents were implicitly consenting to ads featuring their childrens posts by letting them use Facebook, the company said it was already getting that permission when teenagers sign up to use the service.
+
+After the proposed changes were originally announced, they drew an outcry from many users, some privacy groups and members of Congress, and prompted the Federal Trade Commission to scrutinize the companys plans.
+
+Your feedback was clear  we can do better  and it led to a number of clarifying edits, the company wrote in a blog post on Friday announcing the final version of the policies, which went into effect immediately.
+
+But in the end, the edits didnt add up to anything major, according to both the company and its critics.
+
+The new terms of use do not affect a separate change that the company announced last month that allows teenagers to post status updates, videos and images that can be seen by anyone, not just their friends or people who know their friends.
+
+However, Fridays change does fit into a broader pattern: Facebook is pushing its users to share more data while also making that information easier to find. That is raising public awareness of just what it means to post content on the service.
+
+Every day, people post billions of pieces of content and connections into the graph and in doing this, theyre helping to build the clearest model of everything there is to know in the world, Facebooks chief executive, Mark Zuckerberg, told Wall Street analysts in a conference call last month. This has the potential to be really powerful, but right now, we actually do very little to utilize the knowledge that people have shared to benefit everyone in our community.
+
+Facebook is promoting sharing mostly as a way to make the service more useful. The companys graph search tool, for example, mines user posts to help people find, say, restaurant recommendations posted by a friend. Public posts by teenagers let them spread their views to a wide audience.
+
+But Facebook also has big business motivations for finding ways to show the 1.2 trillion posts on its service more frequently and to more people: The more time people spend on Facebook, the more advertising they see and the better targeted those ads can be.
+
+One of its most important advertising products, called sponsored stories, involves rebroadcasting user posts praising a companys product to their friends. Advertisers find such endorsement ads very appealing because people tend to trust recommendations from friends over other types of ads.
+
+So if someone posted Just had a great seafood feast at Red Lobster or even just hit the like button on the chains Facebook page, the restaurant company might pay to make sure that post, or sponsored story, showed up high in the Facebook feeds of that persons friends.
+
+Facebook has maintained that its previous terms of use granted it the right to use a persons name, face and posts in ads sent to other people in that users social network. But with the new policy, the company has replaced vaguer language with more specific wording that clarifies its policies.
+
+A coalition of privacy groups and Senator Edward J. Markey, Democrat of Massachusetts, had complained about the language, saying the new terms could violate a 2011 consent decree between Facebook and the F.T.C. requiring the company to clearly inform users before exposing their data to new audiences.
+
+The F.T.C. began an inquiry into the most recent changes, but apparently raised no strong objections.
+
+Commission investigations and deliberations are nonpublic, therefore we cannot comment on any particular case, said Jay Mayfield, an agency spokesman, in a statement. However, the F.T.C. rigorously monitors compliance with all of its orders, and that includes reviewing any material changes to the privacy policy of a company that is under a privacy order.
+
+Senator Markey, who joined several other lawmakers in introducing a Do Not Track Kids bill on Thursday, said in a statement that Facebooks decision not to shield teenagers from advertising underscored the need for Congress to act. Currently, the law only restricts advertising to children under age 13.
+
+Facebook said it changed the language in its terms of use partly in response to a class-action lawsuit against the company, settled in August, that contended it had not properly disclosed to users how their comments about products and other personal information would show up in ads.
+
+While Facebook has clarified its disclosures, it has not yet put into effect two other important provisions of the settlement that would give users more control over how their information is used in sponsored stories.
+
+One provision requires the company to give parents the ability to prevent their childrens information from being used in such advertising.
+
+The other would allow all users to see if Facebook had turned any comments they had made on the service into a sponsored story ad and allow them to opt out of future broadcasting of that ad.
+
+The innovative controls we agreed to in connection with the settlement take time to build, said Jodi Seth, a Facebook spokeswoman. She offered no timetable for introducing them.

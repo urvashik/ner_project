@@ -33,16 +33,21 @@ class MajorityDict :
         self.max = (-1, None)
         self.total = 0.0
 
+    def __getitem__(self, query) :
+        if query in self.dictionary.keys() :
+            return self.dictionary[query]
+        return 0
+
     def insert(self, key, value=1) :
         if key not in self.dictionary.keys() :
             self.dictionary[key] = value
-            val = 1
+            val = value
         else :
             self.dictionary[key] += value
             val = self.dictionary[key]
         if val > self.max[0] :
             self.max = (val, key)
-        self.total += 1.0
+        self.total += 1.0*value
 
     def merge(self, other) :
         for key in other.dictionary.keys() :

@@ -9,7 +9,6 @@ class State :
         self.ne_types = set()
         self.corpus = []
         self.add_corpus("Raw")
-        self.dictionaries = dict()
     
         #From all iteration
         self.ne = dict()
@@ -33,16 +32,14 @@ class State :
         maj_map = self.rules[rule]
         return (maj_map.get_type(), maj_map.get_majority())
 
-
     def init_dict(self, label, filepath) :
-        dictionary = []
-        self.ne_types.add(label)
-        self.dictionaries[label] = dictionary
-
         f = open(filepath, "r")
         for line in f :
-            ne = NamedEntity(line.strip(), 1.0)
-            dictionary.append(ne)
+            name = line.strip()
+            self.ne[name] = MajorityDict()
+            # Put some large weight for the label since it's seed
+            self.ne[name].insert(label, 99)
+            self.ne_recent[name] = self.ne[name]
 
     def add_corpus(self, filepath) :
         onlyfiles = [ f for f in listdir(filepath) if isfile(join(filepath,f)) ]
@@ -55,7 +52,10 @@ class State :
     def get_ne_types(self) :
         return list(self.ne_types)
 
-    def log_rules(self, ne_type, rules) :
+    def log_rules(self, ne, rules) :
+        ne_type = self.ne_recent[ne].get_type()
+        ne_score = self.ne_recent[ne].get_majority()
+        #print "ne type:"+ne_type + "score"+str(ne_score)
         for rule in rules :
             if rule not in self.candidate_rules.keys() :
                 self.candidate_rules[rule] = MajorityDict()
@@ -63,6 +63,7 @@ class State :
 
     def promote_rules(self, threshold, max_to_promote) :
         def promote(rule_list) :
+            self.rules_recent=dict()
             for rule in rule_list :
                 if rule in self.rules : 
                     #Old rule don't help us find new NE. 
@@ -76,10 +77,13 @@ class State :
         rule_dict = self.candidate_rules
         rules = sort_by_score(rule_dict)
         rules = [r for r in rules if rule_dict[r].get_majority() > threshold]
-        return promote(rules[:max_to_promote])
+        ret = promote(rules[:max_to_promote])
+        self.candidate_rules = dict()
+        return ret
 
     def promote_ne(self, threshold, max_to_promote) :
         def promote(ne_list) :
+            self.ne_recent=dict()
             for name in ne_list :
                 if name in self.ne :
                     self.ne[name].merge(self.candidate_ne[name])
@@ -89,10 +93,12 @@ class State :
             return ne_list
         ne_dict = self.candidate_ne
         ne_list = sort_by_score(ne_dict)
-        for ne in ne_list :
-            print "ne:"+ne+" score:"+str(ne_dict[ne].get_majority())
+        #for ne in ne_list :
+        #    print "ne:"+ne+" score:"+str(ne_dict[ne].get_majority())
         ne_list = [ne for ne in ne_list if ne_dict[ne].get_majority() > threshold]
-        return promote(ne_list[:max_to_promote])
+        ret = promote(ne_list[:max_to_promote])
+        self.candidate_ne = dict()
+        return ret
 
 
     def find_ne(self) :
@@ -121,7 +127,7 @@ class State :
                 if subword_filter(text, candidate_index, query) : 
                     return candidate_index, traverse
             return -1, len(text)
-
+        self.candidate_ne = dict()
         #You only find new NE from newly promoted rules
         rule_list = self.rules_recent
         for rule in rule_list :
@@ -149,3 +155,4 @@ class State :
                     else :
                         ne = get_prev_word(text, r_bound)
                     insert_candidate_ne(ne, rule_type, rule_score)
+

@@ -1,0 +1,29 @@
+WASHINGTON  San Antonio is the seventh-largest city in the United States, a progressive and economically vibrant metropolis of 1.4 million people sprawled across south-central Texas. But the speed of its Internet service is no match for the Latvian capital, Riga, a city of 700,000 on the Baltic Sea.
+
+Rigas average Internet speed is at least two-and-a-half times that of San Antonios, according to Ookla, a research firm that measures broadband speeds around the globe. In other words, downloading a two-hour high-definition movie takes, on average, 35 minutes in San Antonio  and 13 in Riga.
+
+And the cost of Rigas service is about one-fourth that of San Antonio.
+
+The United States, the country that invented the Internet, is falling dangerously behind in offering high-speed, affordable broadband service to businesses and consumers, according to technology experts and an array of recent studies.
+
+In terms of Internet speed and cost, ours seems completely out of whack with what we see in the rest of the world, said Susan Crawford, a law professor at Yeshiva University in Manhattan, a former Obama administration technology adviser and a leading critic of American broadband.
+
+The Obama administration effectively agrees. While this country has made tremendous progress investing in and delivering high-speed broadband to an unprecedented number of Americans, significant areas for improvement remain, said Tom Power, deputy chief technology officer for telecommunications at the White House.
+
+The disagreement comes over how far behind the United States really is in what many people consider as basic a utility as water and electricity  and how much it will affect the nations technological competitiveness over the next decade. There arent any countries ahead of us that have a comparable population distribution, said Richard Bennett, a visiting fellow at the American Enterprise Institute, who said that the United States was closing the gap.
+
+But as the Obama administration warned in a report this year: To create jobs and grow wages at home, and to compete in the global information economy, the delivery of fast, affordable and reliable broadband service to all corners of the United States must be a national imperative.
+
+The World Economic Forum ranked the United States 35th out of 148 countries in Internet bandwidth, a measure of available capacity in a country. Other studies rank the United States anywhere from 14th to 31st in average connection speed.
+
+Generally, fast broadband is considered anything above 10 megabits a second.
+
+In Riga, speeds average 42 megabits a second, but many users had service of 100 to 500 megabits as of mid-December, according to Ookla. In San Antonio, broadband speeds average about 16 megabits a second. While higher speeds are available through cable television or phone companies, the expense is such that many households in the city cannot afford a connection.
+
+Those faster speeds can mean the difference between thriving and surviving. For Kosmodroms Ltd., a web design and video production studio in Riga, that high-speed connection lets it transfer huge files of video or photos in minutes.
+
+With broadband of only a few megabits a second, it would take so long to transmit the files that the company would be better off delivering them physically, on a disk or thumb-drive, said Agnese Krievkalne, a company director.
+
+Nils Usakovs, the mayor of Riga, said that when private investors started to build Internet infrastructure in the city, no systems were in place, so the builders were able to install the latest, fastest communications technology. Were the capital of a European Union member country, bordering with Russia, Mr. Usakovs said. The technology makes this an even more attractive place to invest.
+
+Leticia Ozuna, a former San Antonio councilwoman who worked on the municipal broadband effort, said that in her former district in South San Antonio, some 70 percent of households had no Internet service. Often, she added, students gather at night in the parking lot of the Mission Branch Public Library to do homework using the librarys free Wi-Fi connection, long after the library itself has closed.

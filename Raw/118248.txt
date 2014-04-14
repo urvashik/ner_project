@@ -1,0 +1,29 @@
+NEW YORK  The American Civil Liberties Union filed a lawsuit on Monday, seeking to force the U.S. government to disclose details of its foreign electronic surveillance program and what protections it provides to Americans whose communications are swept up.
+
+The lawsuit, filed in U.S. District Court in New York, came three days after the ACLU lost a bid to block a separate program that collects the phone calls of millions of Americans.
+
+The latest lawsuit seeks information related to the use of Executive Order 12333, which was signed in 1981 and governs surveillance of foreign targets.
+
+Under the order, the National Security Administration is collecting "vast quantities" of data globally under the order's authority, "inevitably" including communications of U.S. citizens, the lawsuit said.
+
+The lawsuit cites "recent revelations," an apparent reference to reports about U.S. spying activities in the wake of leaks by former NSA contractor Edward Snowden.
+
+"This FOIA request seeks, in part, to determine what protections are afforded to those U.S. persons and whether those protections are consistent with the Constitution," it said.
+
+A Justice Department spokesman said the government would respond to the lawsuit in court.
+
+The lawsuit follows a series of requests to U.S. agencies for the information under the Freedom of Information Act that it said have not resulted in substantive responses.
+
+Alex Abdo, an ACLU staff attorney, said in a blog post that the government was using the order as a way to spy on U.S. citizens' international communications.
+
+"The core of the problem is that the NSA has, for years, relied upon its authority to gather foreign intelligence as permission to conduct sweeping surveillance of Americans' international communications," Abdo wrote.
+
+The lawsuit cites news reports indicating that under the order, the NSA is collecting data on cell phone locations and email contact lists, as well as information from Google Inc and Yahoo Inc user accounts.
+
+Among the records sought by the ACLU are any construing or interpreting the scope of agencies' authority under the executive order.
+
+It also seeks records describing minimization procedures used by the agencies related to intelligence collection and interpretation pursuant to the order.
+
+The lawsuit names as defendants the NSA, Central Intelligence Agency, Defense Department, Justice Department and State Department.
+
+The case is American Civil Liberties Union et al v. National Security Agency et al, U.S. District Court, Southern District of New York, No. 13-9198.

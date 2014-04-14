@@ -1,0 +1,31 @@
+Thats the message being delivered to more than 70,000 small-business owners in developing countries where credit ratings are rare and many potential entrepreneurs keep their money in cash rather than bank accounts.
+
+Banks in 16 countries are using a psychometric test to predict future behavior  specifically, whether someone will pay back a loan. Originally a Harvard doctoral project, the Entrepreneurial Finance Labs test has increasingly won the confidence of risk-averse bankers in places where, many economists believe, credit bottlenecks are severely stunting growth.
+
+Now, a new partnership with MasterCard has potential to speed the models proliferation.
+
+In the United States and other mature economies, assessments by multiple credit agencies based on a lifetime of bill payments and account balances help determine with relative confidence whether to give an individual or business a loan.
+
+But the lack of such data in much of the rest of the world creates a massive inefficiency in emerging markets, said Bailey Klinger, 34, the chief executive of the Entrepreneurial Finance Lab. Banks have money to lend, but even profitable small businesses often cannot access it, choking growth.
+
+In wealthy countries like the United States, small- and medium-size enterprises are typically responsible for about half of business activity and almost two-thirds of employment gains. In poor countries, such enterprises, on average, account for only about 17 percent of spending and a third of new jobs.
+
+In 2006, Mr. Klinger was studying this problem, known as the missing middle, with Prof. Asim Khwaja at Harvards Kennedy School of Government. They struck upon a technique some companies have long used to screen potential employees.
+
+For Jhonathan Darwin Montes Mendoza, a 40-minute test led to a $1,500 loan last year to buy Christmas-themed towels, curtains and other decorations ahead of the holiday rush for his market stall in Lima, Peru. Mr. Montess score gave Banco Interamericano de Finanzas confidence he would pay back the loan  even though he had been in business for less than a year, with no credit history.
+
+You cant give a loan to someone without knowing if they have psychological problems, said Mr. Montes, 23, in Spanish, perhaps not fully understanding what the test was measuring. Though similar to tools used by psychologists to assess I.Q., define personalities or screen for addictions, the banks test was intended to measure the traits at the core of entrepreneurship: fluid intelligence, business skill, integrity and attitudes.
+
+After paying back the first loan, Mr. Montes is on a second round, paying down a $2,500 debt. The finance lab calibrates the test for each country where it is introduced.
+
+The labs model asks questions that do not necessarily have a right answer; using an algorithm, it aims to predict whether an individual is likely to default based on how the answers relate to one another.
+
+For example, to assess their sense of personal control over outcomes  which tends to correlate with loan repayment  respondents might be asked to rate how much they agree or disagree with the statement: I believe in the power of fate.
+
+Another question on risk tolerance might ask them to choose between opposing responses with equal social desirability, such as: I plan for every eventuality, Im in between or Planning takes the fun out of life.
+
+There are some unexpected findings: Optimism and self-confidence are good signs among seasoned entrepreneurs, but high levels in younger business owners do not bode well, statistically.
+
+And the math and reasoning questions meant to measure fluid intelligence can also assess integrity  of the loan officer. Too many correct answers can reveal that an applicant was coached.
+
+The small-business loans have proved to be a good revenue source for Banco Interamericano de Finanzas, the fifth-largest commercial bank in Peru, where they have increased by about 50 percent, said Hugo Palomino, its director of commercial products. Over the last year and a half, repayment rates on loans made with the entrepreneurial finance labs model have been about the same as those that used a traditional assessment.

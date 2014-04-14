@@ -1,0 +1,33 @@
+WASHINGTON  Senior federal officials involved in building the HealthCare.gov website were deeply concerned this summer about delays as well as weaknesses in the quality and size of the contractor teams assigned to parts of the project, emails released by congressional investigators on Friday show.
+
+The emails offer some of the first detailed evidence of which federal government officials had at least some knowledge that the start-up of the health care exchange might be troubled.
+
+Henry Chao, the deputy chief information officer at the agency overseeing the project, warned seven other officials in July that the lead contractor, CGI Federal, had better accelerate the work.
+
+I just need to feel more confident they are not going to crash the plane at takeoff, he wrote on July 16 to colleagues at the agency, the Centers for Medicare and Medicaid Services.
+
+Mr. Chaos general concerns about the pace of the project were known; he told industry executives at a conference in March that he was worried, remarking, Lets just make sure its not a third world experience.
+
+But the email exchanges released on Friday make clear that there was growing friction between the federal government and CGI, a Canadian company, as the project missed various deadlines even as the Oct. 1 start-up of the federal marketplace site was approaching.
+
+There apparently was also tension between two contractors: CGI, which was leading the effort, and QSSI, a Maryland company that was supposed to test the computer programs to ensure that they worked. A spokeswoman for CGI declined to comment. But two company employees involved in the effort, who asked not to be named because they were not authorized to speak on the record, said the problem was not CGIs work, but a lack of clear federal oversight, as bureaucrats argued over which tasks should take precedent.
+
+This is internal infighting and reflects the lack of a strong, single manager at C.M.S. to drive the program, one employee said.
+
+The problems were particularly acute with a part of the project that was supposed to help manage the processing of insurance payments.
+
+The FM build appears to be way off track and getting worse, a federal official, Jeff Grant, wrote in an email on July 8, referring to the Financial Management project. Up to that point, the email added, they have never revealed the seriously substandard level of staffing that this team has.
+
+Mr. Grant went on to write, We believe that our entire build is in jeopardy.
+
+A statement from the Department of Health and Human Services on Friday said that these kinds of questions and concerns were common in any large government effort, and that agency officials had publicly acknowledged problems with contractors.
+
+The statement also noted that the Financial Management tool, which most of the emails focused on, is just a small piece of the overall system and that, ultimately, Human Services decided to keep it offline because it was deemed nonessential.
+
+But Representative Fred Upton, Republican of Michigan, chairman of the House Energy and Commerce Committee, which released the 11 pages of emails on Friday, said the messages showed that the Obama administration was not truthful with Congress earlier this year.
+
+Administration officials looked us in the eye and told us everything was on track, Mr. Upton said. But when we pull back the curtain now, the mess is disturbing.
+
+The emails themselves hint that even with the problems evident as of mid-July, the officials hoped to meet the deadline. On July 20, Mr. Chao sent a note to more than two dozen federal officials that shared testimony that he and his boss, Marilyn Tavenner, the administrator of the Centers for Medicare and Medicaid Services, had given to Congress that month in which they promised that the HealthCare.gov site would be ready for the October launch. Marilyn and I under oath stated that we are going to make Oct. 1, he wrote.
+
+Jeffrey D. Zients, whom President Obama appointed to repair the website, said Friday that the online system was significantly improved. He cited faster response times, low error rates and more users over the past week.

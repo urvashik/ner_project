@@ -1,0 +1,37 @@
+WASHINGTON  In windowless rooms from here to California, nearly 10,000 electrical engineers, cybersecurity specialists, utility executives and F.B.I. agents furiously grappled over 48 hours with an unseen enemy who tried to turn out the lights across America. The enemy injected computer viruses into grid control systems, bombed transformers and substations and knocked out power lines by the dozen.
+
+By late Thursday morning, in this unprecedented continental-scale war game to determine how prepared the nation is for a cyberattack, tens of millions of Americans were in simulated darkness. Hundreds of transmission lines and transformers were declared damaged or destroyed, and the engineers were rushing to assess computers that were, for the purposes of the drill, tearing their system apart.
+
+Its going really well, said Gerry W. Cauley, the president and chief executive of the North American Electric Reliability Corporation, which ran the drill. A bit scary, but really well.
+
+There were seven deaths of police officers, firefighters and utility workers who showed up to investigate reports of problems at substations or power lines and were shot by attackers still on the scene. In all, there were 150 casualties, Mr. Cauley said. Attempts to restore equipment and get the lights back on were stymied by police officers who locked down the locations because of active shooters.
+
+The degree of simulation varied, organizers said. Nobody touched actual operating equipment, but some companies sent trucks with linemen aboard to investigate the status of key transformers because the scenarios written by Mr. Cauleys group included computer viruses that kept technicians at the control centers from knowing the condition of crucial equipment.
+
+The drill also involved denial of service attacks, in which hackers flooded a computer connected to the Internet with so many messages that it could not handle the load. In real life, banks and other companies have been hit with such attacks.
+
+Drill participants said they would not talk about the specific locations of the simulated attacks, for two reasons: The locations were chosen at points that the insiders knew were vulnerable, and the companies involved were promised that if they participated, their performance would not be held up to public criticism. The purpose, organizers said, was to pose problems that were hard to solve, to expose areas that needed improvement.
+
+In a much smaller drill two years ago, known as GridEx, for Grid Exercise, analysis afterward found that participants were good at communicating with their neighbors, electrically speaking, but not with national organizations like the electric reliability corporation, making it hard for anyone to get an overview of what was happening.
+
+How well they did this time in what the national group called GridEx II will not be clear for weeks.
+
+One main component of the drill was a log of all communications to record who said what to whom, by email or phone, to determine whether the participants could promptly reach the appropriate people at power companies, police stations or distant cybersecurity centers, and whether they could convey the appropriate information. The information supplied by the game controllers included some fog of war confusion, Mr. Cauley said.
+
+From one undisclosed location in suburban Washington, the electric reliability corporation used a crew of about 40 people to lead the exercise, announcing new attacks and other developments. At a second undisclosed spot, but also in suburban Washington at the Department of Homeland Securitys National Cybersecurity and Communications Integration Center, specialists took calls from electric industry technicians and operators to assist in responding to about 40 cyberattacks.
+
+At 210 utility companies, participants responded to developments served up by drill managers. Most of the companies are in the United States, but some are Canadian and Mexican utilities integrated into the American grid. Royal Canadian Mounted Police officials also participated.
+
+The script for some of the attacks, physical and cyber, resembled actual attacks in this country and around the world, said one participant. And they came thick and fast. They were trying to drive their people to saturation, the participant said.
+
+At the Southwestern Electric Power Company, a subsidiary of American Electric Power that serves parts of Louisiana, Arkansas and eastern Texas, attackers used guns and bombs against a power plant and a transformer, and 108,000 of the companys 520,000 customers lost power. There were certainly surprises for us, said Venita McCellon-Allen, the president and chief operating officer. I sat up straight in my chair.
+
+Most of the companys participants in the drill were in a conference room at a control center in Shreveport, La., she said, but the activity included contacts with the corporate parent, in Columbus, Ohio. It was more severe than anything weve drilled, she said. By the end of the exercise, 20,000 customers were still in the dark. The parent company got hit harder: Power was knocked out for an additional 162,000 customers, and one employee was killed.
+
+The drill ran through business hours on Wednesday and half of the day on Thursday, but each hour of drill time was meant to simulate about four hours of activity. After the drill ended, top utility executives and federal officials were to meet to discuss how they would react in the days, weeks and perhaps months of recovery that would follow.
+
+In a period of anxiety about cyberattacks and the vulnerability of the nations infrastructure, news that GridEx II would be held engendered yet more nervousness, some of it bizarre. One website tried to connect a joint training exercise in Hawaii between American and Chinese military personnel with the electricity drill . Another described it as a prelude to the governments declaring martial law.
+
+Nadya Bartol, the senior cybersecurity strategist at the Utilities Telecom Council, a trade group in Washington with hundreds of electric, water and gas utility members, said it was important to remember that the drill did not involve actual electric service. Its a fire drill, not a fire, she said.
+
+Ms. Bartol, who was not involved in the drill, said her groups members found exercises like this very useful. Its a good idea, just like its a good idea for a student to take a training test for the SAT, she said.

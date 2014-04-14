@@ -1,0 +1,33 @@
+Know someone who drowned from jumping off burning water skis? Well, theres a new medical billing code for that.
+
+Been injured in a spacecraft? Theres a new code for that, too.
+
+Roughed up by an Orca whale? Its on the list.
+
+Next fall, a transformation is coming to the arcane world of medical billing. Overnight, virtually the entire health care system  Medicare, Medicaid, private insurers, hospitals, doctors and various middlemen  will switch to a new set of computerized codes used for determining what ailments patients have and how much they and their insurers should pay for a specific treatment.
+
+The changes are unrelated to the Obama administrations new health care law. But given the lurching start of the federal health insurance website, HealthCare.gov, some doctors and health care information technology specialists fear major disruptions to health care delivery if the new coding system  also heavily computer-reliant  isnt put in place properly.
+
+They are pushing for a delay of the scheduled start date of Oct. 1  or at least more testing beforehand. If you dont code properly, you dont get paid, said Dr. W. Jeff Terry, a urologist in Mobile, Ala., who is one of those who thinks staffs and computer systems, particularly in small medical practices, will not be ready in time. Its going to put a lot of doctors out of business.
+
+The new set of codes, known as I.C.D.-10, allows for much greater detail than the existing code, I.C.D.-9, in describing illnesses, injuries and treatment procedures. That could allow for improved tracking of public health threats and trends, and better analysis of the effectiveness of various treatments.
+
+Officials at the Centers for Medicare and Medicaid Services declined to be interviewed about the new codes. But a spokeswoman said that the agency was committed to implementing I.C.D.-10 on Oct. 1, 2014, and that will not change.
+
+In a letter in November, Kathleen Sebelius, the secretary of health and human services, told Senator Jeff Sessions, Republican of Alabama, that the Medicare and Medicaid officials were working diligently to help doctors get ready. I.C.D.-10 is foundational for building a modernized health care system that will facilitate broader access to high quality care, she wrote.
+
+Still, the troubles with HealthCare.gov have given new ammunition to those urging a go-slow approach on I.C.D.-10 and have made it harder for the government to stand behind assurances that the transition will go smoothly.
+
+Failure to appropriately test I.C.D.-10 could result in operational problems similar to what the Department experienced with the rollout of HealthCare.gov, the Medical Group Management Association, which represents the business managers of medical practices, said in a letter this month to Ms. Sebelius.
+
+The Medicare and Medicaid office now appears to be open to greater testing of the system. Also this month, the Obama administration relaxed some deadlines for parts of the health care law, and some deadlines under a separate law for enacting electronic medical records.
+
+I think that people at C.M.S. understand the stakes with respect to I.C.D.-10 in a heightened way as a result of HealthCare.gov, said Linda E. Fishman, senior vice president for policy at the American Hospital Association.
+
+Dr. John D. Halamka, chief information officer at Beth Israel Deaconess Medical Center in Boston, said the need to prepare for I.C.D.-10 and the Affordable Care Act and to achieve so-called meaningful use of electronic health records all at once could overwhelm computer staffs throughout the health care industry.
+
+Its just this collective sum of activities that exceeds the capacity of the system to absorb it simultaneously, he said.
+
+He said his hospital was spending $5 million this year on I.C.D.-10, $7 million for the Affordable Care Act, $2 million on meaningful use, and $3 million to comply with a federal health care privacy law. Basically, Im not doing anything but federal regulatory mandates, he said.
+
+I.C.D.-10 has already been postponed by a year. It was originally scheduled to go into effect this past Oct. 1, which would have coincided with the rollout of the insurance website.

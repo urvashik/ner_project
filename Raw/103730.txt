@@ -1,0 +1,43 @@
+As carbon emissions build and environmentalists grow more certain of the consequences, scientists have been searching for more precise ways to track the state of Earths vast expanses of forest.
+
+Researchers primarily from the University of Maryland, along with Google, have created a new tool to help scientists monitor forest disturbance. The researchers have synthesized 12 years worth of satellite imagery into a maplike interactive tool illustrating recent changes in the extent of forest cover around the world. Their findings were published Thursday in the journal Science.
+
+By providing a record of changes in forested areas across the globe, the tool can be used to help track threats to biodiversity, the effectiveness of policies that protect forest areas and the release of carbon long tied up in trees and other organic material, among other forest health issues.
+
+Trees absorb carbon dioxide for use in photosynthesis, making them one of the most effective natural tools to remove the greenhouse gas from the atmosphere.
+
+The map includes any area that charted gains or losses in forest cover during the observed period. Areas that experienced no change in the amount of forest cover are shown as blacked out.
+
+More than 650,000 Landsat satellite images taken between 2000 and 2012 were drawn on to create the map. By some estimates, it could have taken a lone computer 15 years to process that volume of data, but because of Googles involvement it took just a few days, said Matthew Hansen, a professor of geographical sciences at the University of Maryland and the studys lead author. Still, he said, even with its enormous processing power, Googles servers broke a sweat.
+
+When they ran it, the lights dimmed, Dr. Hansen said.
+
+Previous efforts at forest mapping have been at very coarse resolutions, he said. With a spatial resolution of 30 meters (almost 33 yards), the map stands as the most visually refined tool of its kind.
+
+At 30 meters you start to see things a lot more clearly, Dr. Hansen said.
+
+At that resolution, he said, the tool can be used to help shape deforestation policy, even on a local scale. Still, despite an interface much like Google Maps  the resource was developed using the Google Earth Engine platform  the interactive graphic doesnt zoom down to individual stands of trees, for instance, the way a pastiche of satellite images might. Rather, it illustrates changes in land character using color blocking.
+
+Besides researchers from the University of Maryland and Google, the team included scientists from the State University of New York, South Dakota State University, Woods Hole Research Center and the United States Geological Survey.
+
+For the most part, the map tells a familiar tale of deforestation. The nearly three-to-one ratio of losses to gains in forested areas worldwide reported in the study is hardly unexpected. The spatterings of red, indicating regions that have lost forest canopy during the study period, outnumber the specklings of blue, representing canopy gain.
+
+Over all, the study reported a loss of 888,000 square miles of the global surface area of forest during the studys time span, while 309,000 square miles of new forest were gained.
+
+Notably, the study confirms that Brazil, where the dense rain forest has been dwindling because of human activity, has slowed down its rate of deforestation. The authors observe that Brazil is one of the only countries focused on deforestation trends using these kinds of precise spatial tools.
+
+Part of Brazils policy shift was the record that was made available to the public and contested, and challenged, Dr. Hansen said. At a certain point, the facts are the facts.
+
+By mapping global changes in forest cover with this degree of specificity, the 15-member research team is providing other nations with the same degree of spatial precision to use in their own forestry policies.
+
+In spite of the strides Brazil has made in slowing down its forest clearing, nations like Indonesia, Malaysia, Paraguay, Bolivia, Zambia, Angola and others are showing loss that more than offset Brazils efforts.
+
+Jonathan Foley, director of the Institute on the Environment at the University of Minnesota, who was not involved in the project, said he thought one of the maps most important features was how it offered a more complete view of global land cover, rather than simply dividing the world into forests and nonforests.
+
+Not only was this a big technical achievement, to, by a factor of a thousand, increase the resolution of the data, but they also did it in a much more systematic and careful way that avoids the biases that are built into previous maps, Dr. Foley said.
+
+He compared the importance of this tool to the development of the first satellite maps of forests decades ago.
+
+This is kind of like the Human Genome Project for the worlds ecosystems, Dr. Foley said.
+
+The researchers said they plan to update the map annually as data become available from NASAs Landsat 8 satellite, which was launched in February.

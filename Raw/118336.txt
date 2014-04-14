@@ -1,0 +1,17 @@
+SAN FRANCISCO  Apple Inc has never worked with the U.S. National Security Agency and is unaware of efforts to target its smartphones, the company said in response to reports that the spy agency had developed a system to hack into and monitor iPhones.
+
+Germany's Der Spiegel reported this week that a secretive unit of the NSA, which is under fire for the extent and depth of its spying programs around the world, makes specialized gear and software to infiltrate and monitor a plethora of computing devices, including mobile phones.
+
+The report included an NSA graphic dated 2008 that outlined a system in development called DROPOUTJEEP, described as a "software implant" that allows infiltrators to push and pull and retrieve data from iPhones such as contact lists. Der Spiegel referred to it as a "trojan," or malware that helps hackers get into protected systems.
+
+The report, which surfaced on Sunday, did not suggest that Apple had cooperated with the U.S. spying agency on so-called backdoors.
+
+In a statement issued Tuesday, the NSA did not comment on any specific allegations but said that its interest "in any given technology is driven by the use of that technology by foreign intelligence targets."
+
+"The United States pursues its intelligence mission with care to ensure that innocent users of those same technologies are not affected," the agency added.
+
+The iPhone was a relatively innovative gadget in 2008. It hit the market in 2007 and proceeded to help revolutionize the mobile phone industry.
+
+"Apple has never worked with the NSA to create a backdoor in any of our products, including iPhone. Additionally, we have been unaware of this alleged NSA program targeting our products," the company said in a statement.
+
+"We will continue to use our resources to stay ahead of malicious hackers and defend our customers from security attacks, regardless of who's behind them."
